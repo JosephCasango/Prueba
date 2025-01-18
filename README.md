@@ -2,6 +2,25 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
 <style>
 * {box-sizing: border-box}
 
@@ -260,6 +279,95 @@ body, html {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Analisis {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  background-color: #fff;
+  color: #212121;
+}
+
+.imagene {
+  height: 8rem;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgb(204, 0, 255);
+  background-image: linear-gradient(to right, rgb(255, 174, 0), rgb(204, 0, 255));
+}
+
+.info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.text-1 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-2 {
+  margin-top: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.text-2 span:first-child {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+
+.text-2 span:last-child {
+  margin-top: 0.5rem;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  margin-top: 1rem;
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.sin {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(156, 163, 175, 1);
+}
+
 </style>
 </head>
 <body>
@@ -322,7 +430,60 @@ body, html {
 
 
 <div id="News" class="contenido">
-<h1>Titulo</h1>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>ANÁLISIS DE MODOS Y EFECTOS DE FALLAS</h1>
+ 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+ 
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Analisis
+    </p>
+
+    <div class="text-2">
+
+      <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
+    </div>
+    
+    <p class="sin">
+      Offer valid until 29th April, 2023 *
+    </p>
+  </div>
+</div>
+
+    </div>
+    <div class="col-sm-4">
+      <h3>Modo de Fallas</h3>
+      <p> Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
+</p>
+     <p></p> 
+    </div>
+    <div class="col-sm-4">
+      <h3>Columna</h3>        
+      <p>Relleno</p>
+      <p>Relleno</p>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
 
