@@ -459,8 +459,11 @@ body, html {
   </div>
 </div>
 
-
+</div>
+</div>
    </div>
+   <div class="container mt-5">
+  <div class="row">
     <div class="col-sm-4">
 
 <div class="Analisis">
@@ -483,8 +486,12 @@ body, html {
 </div>
     </div>
 
+</div>
+</div>
 
-    <div class="col-sm-4">
+<div class="container mt-5">
+  <div class="row">
+  <div class="col-sm-4">
 <div class="Analisis">
   <div class="imagene"></div>
   <div class="info">
@@ -507,7 +514,7 @@ body, html {
     </div>
 
 
-
+</div>
 </div>
 
 
@@ -539,12 +546,13 @@ body, html {
 </div>
     </div>
 <br>
+<div></div>
 
 
 
 
-
-
+<div class="container mt-5">
+  <div class="row">
   <div class="col-sm-4">
 
 <div class="Analisis">
@@ -568,14 +576,16 @@ body, html {
   </div>
 </div>
     </div>
+</div>
+</div>
 
 
 
 
 
 
-
-
+<div class="container mt-5">
+  <div class="row">
  <div class="col-sm-4">
 
 <div class="Analisis">
