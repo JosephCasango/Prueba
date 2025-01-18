@@ -684,9 +684,12 @@ img.hover-shadow {
     </p>
   </div>
 </div>
-
+</div>
+</div>
 
   </div>
+  <div class="container mt-5">
+  <div class="row">
     <div class="col-sm-4">
 
 <div class="Analisis">
@@ -707,9 +710,12 @@ img.hover-shadow {
     </p>
   </div>
 </div>
+<div>
+</div>
     </div>
 
-
+<div class="container mt-5">
+  <div class="row">
   <div class="col-sm-4">
 <div class="Analisis">
   <div class="imagene"><img src="https://i.pinimg.com/736x/9b/e5/65/9be565cb56b49790d256d28d98140818.jpg" alt="Gi" width="300" height="128"></div>
@@ -731,7 +737,8 @@ img.hover-shadow {
   </div>
 </div>
     </div>
-
+</div>
+</div>
 
 
 </div>
@@ -739,7 +746,8 @@ img.hover-shadow {
 
  
 
-
+<div class="container mt-5">
+  <div class="row">
 <div class="container mt-5">
   <div class="row"> 
     <div class="col-sm-4">
@@ -764,13 +772,16 @@ img.hover-shadow {
   </div>
 </div>
     </div>
+    </div>
+    </div>
 <br>
 
 
 
 
 
-
+<div class="container mt-5">
+  <div class="row">
    <div class="col-sm-4">
 
 <div class="Analisis">
@@ -794,14 +805,16 @@ img.hover-shadow {
   </div>
 </div>
     </div>
+</div>
+</div>
 
 
 
 
 
 
-
-
+<div class="container mt-5">
+  <div class="row">
  <div class="col-sm-4">
 
 <div class="Analisis">
