@@ -99,7 +99,11 @@ body, html {
 }
 
 
+.imgine{
+   height: 100%; 
+     width: 100%;
 
+}
 
 
 
@@ -281,12 +285,12 @@ body, html {
 <div id="Inicio" class="contenido">
 
 
-<div class="bg-image img1"></div>
-<div class="bg-image img2"></div>
-<div class="bg-image img3"></div>
-<div class="bg-image img4"></div>
-<div class="bg-image img5"></div>
-<div class="bg-image img6"></div>
+<div class="bg-image img1"><img class="imgine" src="https://i.pinimg.com/736x/fe/b8/2d/feb82d3d0dccb51e13414c539652f282.jpg"></div>
+<div class="bg-image img2"><img class="imgine" src="https://i.pinimg.com/736x/58/34/a8/5834a8af5844d0c6075f0aff65959d56.jpg"></div>
+<div class="bg-image img3"><img class="imgine" src="https://i.pinimg.com/736x/90/5c/f8/905cf8adc890477aea2447bef5168f1e.jpg"></div>
+<div class="bg-image img4"><img class="imgine" src="https://i.pinimg.com/736x/88/4d/25/884d25218b66bf5756f408aa3103202c.jpg"></div>
+<div class="bg-image img5"><img class="imgine" src="https://i.pinimg.com/736x/eb/15/db/eb15db04a5343837dca538694f4df136.jpg"></div>
+<div class="bg-image img6"><img class="imgine" src="https://i.pinimg.com/736x/6e/db/4a/6edb4a1d2354b50cb9789c824ce82be0.jpg"></div>
 <div class="bg-text">
 
  Equipo 1
