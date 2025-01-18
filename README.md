@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -267,8 +267,8 @@ body, html {
 
 
 
-<button class="tabla" onclick="openPage('Contact', this,)">Contact</button>
-<button class="tabla" onclick="openPage('About', this,)">About</button>
+<button class="tabla" onclick="openPage('Contact', this,)"></button>
+<button class="tabla" onclick="openPage('About', this,)"></button>
 
 
 
