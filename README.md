@@ -59,7 +59,7 @@ body, html {
 #News {background-color: black;}
 #otro {background-color: black;}
 #About {background-color: black;}
-
+#Especial {background-color: black;}
 
 
 
@@ -674,7 +674,7 @@ img.hover-shadow {
       Analisis
     </p>
 
-  <div class="text-2">
+   <div class="text-2">
 
   <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
     </div>
@@ -686,7 +686,7 @@ img.hover-shadow {
 </div>
 
 
-   </div>
+  </div>
     <div class="col-sm-4">
 
 <div class="Analisis">
@@ -696,13 +696,13 @@ img.hover-shadow {
       Modo de Fallas
     </p>
 
-   <div class="text-2">
+  <div class="text-2">
 
-  <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
+   <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
 </span>
     </div>
     
-   <p class="sin">
+  <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -718,14 +718,14 @@ img.hover-shadow {
       Efectos de la falla
     </p>
 
-  <div class="text-2">
+   <div class="text-2">
 
-   <span>Aquí se describe el impacto que tendría la falla si llegara a ocurrir. ¿Qué consecuencias habría?
+  <span>Aquí se describe el impacto que tendría la falla si llegara a ocurrir. ¿Qué consecuencias habría?
 
 </span>
     </div>
     
-  <p class="sin">
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -751,14 +751,14 @@ img.hover-shadow {
       Causa de Falla
     </p>
 
-   <div class="text-2">
+  <div class="text-2">
 
-   <span>Se identifican las razones o condiciones que podrían provocar la falla. ¿Por qué sucedería?
+  <span>Se identifican las razones o condiciones que podrían provocar la falla. ¿Por qué sucedería?
 
 </span>
     </div>
     
-   <p class="sin">
+  <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -780,7 +780,7 @@ img.hover-shadow {
       Severidad (S)
     </p>
 
-   <div class="text-2">
+  <div class="text-2">
 
    <span> Evalúa qué tan grave sería el efecto de la falla en caso de que ocurra. Se usa una escala, generalmente de 1 (efecto menor) a 10 (efecto crítico).
 
@@ -788,7 +788,7 @@ img.hover-shadow {
 </span>
     </div>
     
-   <p class="sin">
+  <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -811,15 +811,16 @@ img.hover-shadow {
       Ocurrencia (O)
     </p>
 
-  <div class="text-2">
-      <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
+   <div class="text-2">
+
+   <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
 
 
 
 </span>
     </div>
     
-   <p class="sin">
+  <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -889,7 +890,7 @@ img.hover-shadow {
       <h3>Proceso</h3>
 
 
-  <p>Se examina el sistema o proceso completo, identificando las partes críticas y cómo estas interactúan entre sí. El objetivo es entender dónde podrían surgir problemas.
+   <p>Se examina el sistema o proceso completo, identificando las partes críticas y cómo estas interactúan entre sí. El objetivo es entender dónde podrían surgir problemas.
 </p>
 
   
@@ -930,7 +931,7 @@ img.hover-shadow {
 
 
 
-  </div>
+   </div>
 <div class="col-sm-4">
       <h3>Modo</h3>
       <p>Se describen las maneras específicas en que las fallas podrían manifestarse. Esto responde a la pregunta: ¿cómo podría fallar?
@@ -1004,8 +1005,8 @@ El PFEMDA combina la prevención de fallas con un enfoque práctico en el diagn�
       <p>El Control Estadístico de Procesos (CEP), conocido en inglés como Statistical Process Control (SPC), es una técnica que utiliza herramientas estadísticas para supervisar, medir y mejorar la calidad de los procesos productivos. Su propósito principal es garantizar que los productos o servicios cumplan con los estándares establecidos, identificando y gestionando la variabilidad en los procesos.El Control Estadístico de Procesos (CEP), conocido en inglés como Statistical Process Control (SPC), es una técnica que utiliza herramientas estadísticas para supervisar, medir y mejorar la calidad de los procesos productivos. Su propósito principal es garantizar que los productos o servicios cumplan con los estándares establecidos, identificando y gestionando la variabilidad en los procesos.
 </p>
     
-  </div>
-    <div class="col-sm-4">
+   </div>
+  <div class="col-sm-4">
       <h3>Comceptos y Claves</h3>
       <p>Variabilidad en los procesos:
 Todos los procesos tienen algún nivel de variación, que puede clasificarse en dos tipos:
@@ -1018,7 +1019,7 @@ Gráficos de control: Detectan desviaciones respecto a los límites establecidos
 Histogramas: Muestran la distribución de los datos.
 </p>
     
-   </div>
+  </div>
     <div class="col-sm-4">
       <h3>CEP Prevencion</h3>        
       <p>El CEP se enfoca en identificar posibles problemas antes de que afecten la calidad del producto o servicio, reduciendo desperdicios y evitando fallas en etapas avanzadas.
@@ -1064,7 +1065,7 @@ El CEP no solo mejora la calidad, sino que también aumenta la eficiencia del pr
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
 
-  <div class="mySlides">
+   <div class="mySlides">
       <div class="numbertext">1 / 4</div>
       <img src="https://i.pinimg.com/736x/f8/b9/cb/f8b9cb5d84807ef441428ccf4debc76d.jpg" style="width:100%">
     </div>
@@ -1082,17 +1083,16 @@ El CEP no solo mejora la calidad, sino que también aumenta la eficiencia del pr
    <div class="mySlides">
       <div class="numbertext">4 / 4</div>
       <img src="https://i.pinimg.com/736x/43/a7/6d/43a76da7b731ad302a35f09717306067.jpg" style="width:100%">
-    </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div> 
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-  <div class="caption-container">
+   <div class="caption-container">
       <p id="caption"></p>
     </div>
 
 
-  <div class="column">
+ <div class="column">
       <img class="demo cursor" src="https://i.pinimg.com/736x/f8/b9/cb/f8b9cb5d84807ef441428ccf4debc76d.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
     </div>
     <div class="column">
@@ -1118,14 +1118,14 @@ El CEP no solo mejora la calidad, sino que también aumenta la eficiencia del pr
 
 <br>
 <div class="button-containering">
-  <button class="button-3d" onclick="openPage('News', this,)" id="defaultOpen">
+  <button class="button-3d" onclick="openPage('otro', this,)" id="defaultOpen">
     <div class="button-top">
       <span class="material-icons">❮</span>
     </div>
     <div class="button-bottom"></div>
     <div class="button-base"></div>
   </button>
-  <button class="button-3d" onclick="openPage('About', this,)">
+  <button class="button-3d" onclick="openPage('Especial', this,)">
     <div class="button-top">
       <span class="material-icons">❯</span>
     </div>
@@ -1135,7 +1135,111 @@ El CEP no solo mejora la calidad, sino que también aumenta la eficiencia del pr
 </div>
 
 
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Especial" class="contenido">
+<div class="container-fluid p-5 bg-warning text-white text-center">
+  <h1>PPAP</h1>
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      
+   <p>
+        El PPAP (Proceso de Aprobación de Partes de Producción) es un procedimiento estándar, especialmente en la industria automotriz, diseñado para garantizar que los proveedores puedan fabricar piezas o componentes que cumplan con las especificaciones y requisitos del cliente antes de comenzar la producción en masa.
+Objetivo del PPAP:
+El propósito principal es demostrar que los procesos de fabricación del proveedor son consistentes y que los productos cumplen con los estándares técnicos y de calidad del cliente.
+Elementos clave del PPAP:
+Diseño registrado por el cliente:
+Se incluyen copias del diseño aprobado, como planos técnicos o especificaciones detalladas.
+
+</p>
+    
+  </div>
+    <div class="col-sm-4">
+      
+
+<img src="https://i.pinimg.com/736x/2e/bd/62/2ebd62360a8b64cacfc4a66e6db72696.jpg" alt="Girl in a jacket" width="400" height="300">
+    
+   </div>
+    <div class="col-sm-4">
+           
+   <p>Registro de pruebas:
+Evidencia de que las piezas cumplen con los requisitos de pruebas físicas, químicas y de rendimiento.
+Informe dimensional:
+Resultados detallados de las mediciones de las piezas comparadas con el diseño aprobado.
+AMEF del diseño y proceso:
+Evaluaciones de riesgos para identificar posibles fallas en el diseño y el proceso de fabricación.
+Evidencia de cumplimiento:
+Certificados o registros que demuestran que los materiales y procesos cumplen con las especificaciones requeridas.
+Aprobación del cliente:
+Validación final por parte del cliente mediante firma o aceptación oficial.</p>
+
+   </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="button-containering">
+  <button class="button-3d" onclick="openPage('About', this,)" id="defaultOpen">
+    <div class="button-top">
+      <span class="material-icons">❮</span>
+    </div>
+    <div class="button-bottom"></div>
+    <div class="button-base"></div>
+  </button>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
