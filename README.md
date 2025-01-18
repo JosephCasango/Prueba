@@ -8,9 +8,6 @@
 
 
 
-
-
-
   <title>Bootstrap 5 Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -363,6 +360,233 @@ body, html {
   color: rgba(156, 163, 175, 1);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by adamgiebl */ 
+.Img {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.Img span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.Img svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Img:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.Img:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.Img:hover span {
+  transform: translateX(5em);
+}
+
+.Img:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
 </style>
 </head>
 <body>
@@ -450,7 +674,7 @@ body, html {
       Analisis
     </p>
 
-   <div class="text-2">
+  <div class="text-2">
 
   <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
     </div>
@@ -463,7 +687,7 @@ body, html {
 
 
    </div>
-  <div class="col-sm-4">
+    <div class="col-sm-4">
 
 <div class="Analisis">
   <div class="imagene"><img src="https://i.pinimg.com/736x/31/70/9d/31709d6b373cf4ef9d53a6461b4152be.jpg" alt="Gi" width="300" height="128"></div>
@@ -472,13 +696,13 @@ body, html {
       Modo de Fallas
     </p>
 
-  <div class="text-2">
+   <div class="text-2">
 
-   <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
+  <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
 </span>
     </div>
     
-  <p class="sin">
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -496,12 +720,12 @@ body, html {
 
   <div class="text-2">
 
-  <span>Aquí se describe el impacto que tendría la falla si llegara a ocurrir. ¿Qué consecuencias habría?
+   <span>Aquí se describe el impacto que tendría la falla si llegara a ocurrir. ¿Qué consecuencias habría?
 
 </span>
     </div>
     
-<p class="sin">
+  <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -527,14 +751,14 @@ body, html {
       Causa de Falla
     </p>
 
-  <div class="text-2">
+   <div class="text-2">
 
    <span>Se identifican las razones o condiciones que podrían provocar la falla. ¿Por qué sucedería?
 
 </span>
     </div>
     
- <p class="sin">
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -558,11 +782,13 @@ body, html {
 
    <div class="text-2">
 
-  <span> Evalúa qué tan grave sería el efecto de la falla en caso de que ocurra. Se usa una escala, generalmente de 1 (efecto menor) a 10 (efecto crítico).
+   <span> Evalúa qué tan grave sería el efecto de la falla en caso de que ocurra. Se usa una escala, generalmente de 1 (efecto menor) a 10 (efecto crítico).
+
 
 </span>
-    </div> 
-    <p class="sin">
+    </div>
+    
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -585,16 +811,15 @@ body, html {
       Ocurrencia (O)
     </p>
 
- <div class="text-2">
-
-  <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
+  <div class="text-2">
+      <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
 
 
 
 </span>
     </div>
     
-  <p class="sin">
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
@@ -662,35 +887,65 @@ body, html {
   <div class="row">
     <div class="col-sm-4">
       <h3>Proceso</h3>
-      <p>Se examina el sistema o proceso completo, identificando las partes críticas y cómo estas interactúan entre sí. El objetivo es entender dónde podrían surgir problemas.
+
+
+  <p>Se examina el sistema o proceso completo, identificando las partes críticas y cómo estas interactúan entre sí. El objetivo es entender dónde podrían surgir problemas.
 </p>
 
-    
-  </div>
+  
+
+
+
+
+
+
+
+   </div>
     <div class="col-sm-4">
       <h3>Fallas</h3>
       <p>Se identifican los errores o problemas potenciales que podrían aparecer en el sistema o proceso. Esto incluye cualquier punto débil que podría generar un fallo.
 </p>
-      
-  </div>
+    
+
+
+
+
+
+
+
+   </div>
     <div class="col-sm-4">
       <h3>Efectos</h3>        
-   <p>Se analizan las consecuencias de las fallas, tanto en el sistema como en los usuarios, clientes o procesos relacionados. ¿Qué impacto tendría la falla si ocurre?</p>
-    </div>
+      <p>Se analizan las consecuencias de las fallas, tanto en el sistema como en los usuarios, clientes o procesos relacionados. ¿Qué impacto tendría la falla si ocurre?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 <div class="col-sm-4">
       <h3>Modo</h3>
       <p>Se describen las maneras específicas en que las fallas podrían manifestarse. Esto responde a la pregunta: ¿cómo podría fallar?
-</p>   
-    </div>
+</p>
+      
+   </div>
 <div class="col-sm-4">
       <h3>Diagnostico</h3>
       <p>A diferencia del AMEF, el PFEMDA pone énfasis en las estrategias para detectar y diagnosticar fallas rápidamente. Esto incluye herramientas, métodos y procedimientos para minimizar el impacto de los problemas.
 
 </p>
       
-   </div>
+  </div>
     <div class="col-sm-4">
-    <h3>Analisis</h3>
+      <h3>Analisis</h3>
       <p>Al igual que en el AMEF, las fallas se priorizan con base en su gravedad, frecuencia y facilidad de detección. Esto permite decidir qué problemas deben abordarse primero, ya sea mediante medidas preventivas o correctivas.
 El PFEMDA combina la prevención de fallas con un enfoque práctico en el diagnóstico y resolución. Esto mejora no solo la confiabilidad de los sistemas, sino también la capacidad de respuesta ante problemas cuando ocurren, reduciendo así el impacto en los procesos y usuarios.
 
@@ -712,6 +967,22 @@ El PFEMDA combina la prevención de fallas con un enfoque práctico en el diagn�
 
 
 
+<div class="button-containering">
+  <button class="button-3d" onclick="openPage('News', this,)" id="defaultOpen">
+    <div class="button-top">
+      <span class="material-icons">❮</span>
+    </div>
+    <div class="button-bottom"></div>
+    <div class="button-base"></div>
+  </button>
+  <button class="button-3d" onclick="openPage('About', this,)">
+    <div class="button-top">
+      <span class="material-icons">❯</span>
+    </div>
+    <div class="button-bottom"></div>
+    <div class="button-base"></div>
+  </button>
+</div>
 
 
 
@@ -723,30 +994,145 @@ El PFEMDA combina la prevención de fallas con un enfoque práctico en el diagn�
 <div id="About" class="contenido">
 
 <div class="container-fluid p-5 bg-info text-white text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <h1>Control Estadistico De Proceso</h1>
 </div>
   
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
+      <h3>CEP</h3>
+      <p>El Control Estadístico de Procesos (CEP), conocido en inglés como Statistical Process Control (SPC), es una técnica que utiliza herramientas estadísticas para supervisar, medir y mejorar la calidad de los procesos productivos. Su propósito principal es garantizar que los productos o servicios cumplan con los estándares establecidos, identificando y gestionando la variabilidad en los procesos.El Control Estadístico de Procesos (CEP), conocido en inglés como Statistical Process Control (SPC), es una técnica que utiliza herramientas estadísticas para supervisar, medir y mejorar la calidad de los procesos productivos. Su propósito principal es garantizar que los productos o servicios cumplan con los estándares establecidos, identificando y gestionando la variabilidad en los procesos.
+</p>
+    
+  </div>
     <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
+      <h3>Comceptos y Claves</h3>
+      <p>Variabilidad en los procesos:
+Todos los procesos tienen algún nivel de variación, que puede clasificarse en dos tipos:
+Variabilidad común: Surge de factores naturales inherentes al proceso.
+Variabilidad especial: Resulta de problemas específicos o anomalías.
+El CEP ayuda a diferenciar entre estas dos para enfocar los esfuerzos de mejora.
+Herramientas estadísticas:
+Se utilizan gráficos y análisis de datos para monitorear los procesos, como:
+Gráficos de control: Detectan desviaciones respecto a los límites establecidos.
+Histogramas: Muestran la distribución de los datos.
+</p>
+    
+   </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>CEP Prevencion</h3>        
+      <p>El CEP se enfoca en identificar posibles problemas antes de que afecten la calidad del producto o servicio, reduciendo desperdicios y evitando fallas en etapas avanzadas.
+El CEP no solo mejora la calidad, sino que también aumenta la eficiencia del proceso al anticipar y corregir problemas antes de que se vuelvan significativos. Es una metodología proactiva que asegura productos consistentes y procesos estables.</p>
+
+   </div>
+  </div>
+</div>
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://i.pinimg.com/736x/f8/b9/cb/f8b9cb5d84807ef441428ccf4debc76d.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/736x/b3/cc/9e/b3cc9ed4b8da50151c4763649394fa4d.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/736x/6a/0b/cb/6a0bcb5dc34645ad15efd6e0d45ce736.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/736x/43/a7/6d/43a76da7b731ad302a35f09717306067.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+  <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://i.pinimg.com/736x/f8/b9/cb/f8b9cb5d84807ef441428ccf4debc76d.jpg" style="width:100%">
+    </div>
+
+  <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://i.pinimg.com/736x/b3/cc/9e/b3cc9ed4b8da50151c4763649394fa4d.jpg" style="width:100%">
+    </div>
+
+  <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://i.pinimg.com/736x/6a/0b/cb/6a0bcb5dc34645ad15efd6e0d45ce736.jpg" style="width:100%">
+    </div>
+    
+   <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://i.pinimg.com/736x/43/a7/6d/43a76da7b731ad302a35f09717306067.jpg" style="width:100%">
+    </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+  <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/736x/f8/b9/cb/f8b9cb5d84807ef441428ccf4debc76d.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/736x/b3/cc/9e/b3cc9ed4b8da50151c4763649394fa4d.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/736x/6a/0b/cb/6a0bcb5dc34645ad15efd6e0d45ce736.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/736x/43/a7/6d/43a76da7b731ad302a35f09717306067.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+<br>
+<div class="button-containering">
+  <button class="button-3d" onclick="openPage('News', this,)" id="defaultOpen">
+    <div class="button-top">
+      <span class="material-icons">❮</span>
+    </div>
+    <div class="button-bottom"></div>
+    <div class="button-base"></div>
+  </button>
+  <button class="button-3d" onclick="openPage('About', this,)">
+    <div class="button-top">
+      <span class="material-icons">❯</span>
+    </div>
+    <div class="button-bottom"></div>
+    <div class="button-base"></div>
+  </button>
+</div>
 
 
 </div>
@@ -772,6 +1158,62 @@ function openPage(pageName,elmnt,color) {
 
 
 document.getElementById("defaultOpen").click();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+
 </script>
    
 </body>
