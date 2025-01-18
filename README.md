@@ -22,12 +22,16 @@
 
 
 <style>
+
+
+
 * {box-sizing: border-box}
 
 body, html {
-  height: 100%;
+  height: 200%;
  margin: 0;
   font-family: Arial;
+
 }
 
 .tabla {
@@ -53,6 +57,7 @@ body, html {
   height: 105%;
 }
 
+
 #Inicio {background-color: black;}
 #News {background-color: black;}
 #Contact {background-color: red;}
@@ -70,16 +75,6 @@ body, html {
 
 
 
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .bg-image {
   /* Full height */
@@ -196,8 +191,6 @@ body, html {
 
 
 
-
-/* From Uiverse.io by Z4drus */ 
 .button-containering {
   display: flex;
   justify-content: center;
@@ -393,12 +386,12 @@ body, html {
 <div id="Inicio" class="contenido">
 
 
-<div class="bg-image img1"><img class="imgine" src="https://i.pinimg.com/736x/fe/b8/2d/feb82d3d0dccb51e13414c539652f282.jpg"></div>
-<div class="bg-image img2"><img class="imgine" src="https://i.pinimg.com/736x/58/34/a8/5834a8af5844d0c6075f0aff65959d56.jpg"></div>
-<div class="bg-image img3"><img class="imgine" src="https://i.pinimg.com/736x/90/5c/f8/905cf8adc890477aea2447bef5168f1e.jpg"></div>
-<div class="bg-image img4"><img class="imgine" src="https://i.pinimg.com/736x/88/4d/25/884d25218b66bf5756f408aa3103202c.jpg"></div>
-<div class="bg-image img5"><img class="imgine" src="https://i.pinimg.com/736x/eb/15/db/eb15db04a5343837dca538694f4df136.jpg"></div>
-<div class="bg-image img6"><img class="imgine" src="https://i.pinimg.com/736x/6e/db/4a/6edb4a1d2354b50cb9789c824ce82be0.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/fe/b8/2d/feb82d3d0dccb51e13414c539652f282.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/58/34/a8/5834a8af5844d0c6075f0aff65959d56.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/90/5c/f8/905cf8adc890477aea2447bef5168f1e.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/88/4d/25/884d25218b66bf5756f408aa3103202c.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/eb/15/db/eb15db04a5343837dca538694f4df136.jpg"></div>
+<div><img class="imgine" src="https://i.pinimg.com/736x/6e/db/4a/6edb4a1d2354b50cb9789c824ce82be0.jpg"></div>
 <div class="bg-text">
 
  Equipo 1
@@ -455,37 +448,164 @@ body, html {
       Analisis
     </p>
 
-    <div class="text-2">
+   <div class="text-2">
 
-      <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
+   <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
     </div>
     
-    <p class="sin">
+   <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
 </div>
 
-    </div>
+
+   </div>
     <div class="col-sm-4">
-      <h3>Modo de Fallas</h3>
-      <p> Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
-</p>
-     <p></p> 
+
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Modo de Fallas
+    </p>
+
+  <div class="text-2">
+
+  <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
+</span>
     </div>
-    <div class="col-sm-4">
-      <h3>Columna</h3>        
-      <p>Relleno</p>
-      <p>Relleno</p>
-    </div>
+    
+  <p class="sin">
+      Offer valid until 29th April, 2023 *
+    </p>
   </div>
+</div>
+    </div>
+
+
+    <div class="col-sm-4">
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Efectos de la falla
+    </p>
+
+  <div class="text-2">
+
+  <span>Aquí se describe el impacto que tendría la falla si llegara a ocurrir. ¿Qué consecuencias habría?
+
+</span>
+    </div>
+    
+<p class="sin">
+      Offer valid until 29th April, 2023 *
+    </p>
+  </div>
+</div>
+    </div>
+
+
+
 </div>
 
 
+ 
+
+
+<div class="container mt-5">
+  <div class="row"> 
+    <div class="col-sm-4">
+
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Causa de Falla
+    </p>
+
+  <div class="text-2">
+
+   <span>Se identifican las razones o condiciones que podrían provocar la falla. ¿Por qué sucedería?
+
+</span>
+    </div>
+    
+   <p class="sin">
+      Offer valid until 29th April, 2023 *
+    </p>
+  </div>
+</div>
+    </div>
+<br>
 
 
 
 
+
+
+  <div class="col-sm-4">
+
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Severidad (S)
+    </p>
+
+  <div class="text-2">
+
+  <span> Evalúa qué tan grave sería el efecto de la falla en caso de que ocurra. Se usa una escala, generalmente de 1 (efecto menor) a 10 (efecto crítico).
+
+
+</span>
+    </div>
+    
+   <p class="sin">
+      Offer valid until 29th April, 2023 *
+    </p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+
+
+ <div class="col-sm-4">
+
+<div class="Analisis">
+  <div class="imagene"></div>
+  <div class="info">
+    <p class="text-1">
+      Ocurrencia (O)
+    </p>
+
+   <div class="text-2">
+   <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
+
+
+
+</span>
+    </div>
+    
+  <p class="sin">
+    Offer valid until 29th April, 2023 *
+    </p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+</div>
+</div>
 
 
 
@@ -558,3 +678,4 @@ document.getElementById("defaultOpen").click();
    
 </body>
 </html> 
+
