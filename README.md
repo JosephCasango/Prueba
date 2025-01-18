@@ -28,7 +28,7 @@
 * {box-sizing: border-box}
 
 body, html {
-  height: 200%;
+  height: 100%;
  margin: 0;
   font-family: Arial;
 
@@ -60,8 +60,8 @@ body, html {
 
 #Inicio {background-color: black;}
 #News {background-color: black;}
-#Contact {background-color: red;}
-#About {background-color: white;}
+#otro {background-color: black;}
+#About {background-color: black;}
 
 
 
@@ -191,6 +191,8 @@ body, html {
 
 
 
+
+/* From Uiverse.io by Z4drus */ 
 .button-containering {
   display: flex;
   justify-content: center;
@@ -368,7 +370,7 @@ body, html {
 
 
 
-<button class="tabla" onclick="openPage('Contact', this,)"></button>
+
 <button class="tabla" onclick="openPage('About', this,)"></button>
 
 
@@ -442,7 +444,7 @@ body, html {
     <div class="col-sm-4">
  
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/736x/86/d6/5c/86d65c162a1de465fbb1ae388182a9fd.jpg" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Analisis
@@ -450,7 +452,7 @@ body, html {
 
    <div class="text-2">
 
-   <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
+  <span>El análisis de modos y efectos de fallas (FMEA, por sus siglas en inglés) es una herramienta estructurada que permite identificar, analizar y priorizar posibles problemas en un sistema, proceso, diseño, producto o servicio. Su principal objetivo es anticipar fallas antes de que ocurran, mejorando así la confiabilidad, seguridad y calidad</span>
     </div>
     
    <p class="sin">
@@ -459,15 +461,12 @@ body, html {
   </div>
 </div>
 
-</div>
-</div>
+
    </div>
-   <div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
+  <div class="col-sm-4">
 
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/736x/31/70/9d/31709d6b373cf4ef9d53a6461b4152be.jpg" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Modo de Fallas
@@ -475,7 +474,7 @@ body, html {
 
   <div class="text-2">
 
-  <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
+   <span>Esto se refiere a las maneras específicas en que un sistema o componente podría fallar. En otras palabras, ¿qué podría salir mal?
 </span>
     </div>
     
@@ -486,14 +485,10 @@ body, html {
 </div>
     </div>
 
-</div>
-</div>
 
-<div class="container mt-5">
-  <div class="row">
   <div class="col-sm-4">
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/736x/9b/e5/65/9be565cb56b49790d256d28d98140818.jpg" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Efectos de la falla
@@ -514,7 +509,7 @@ body, html {
     </div>
 
 
-</div>
+
 </div>
 
 
@@ -526,7 +521,7 @@ body, html {
     <div class="col-sm-4">
 
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/originals/07/85/e7/0785e7dae354aba21aff4c3752166011.gif" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Causa de Falla
@@ -539,64 +534,60 @@ body, html {
 </span>
     </div>
     
-   <p class="sin">
+ <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
 </div>
     </div>
 <br>
-<div></div>
 
 
 
 
-<div class="container mt-5">
-  <div class="row">
-  <div class="col-sm-4">
+
+
+   <div class="col-sm-4">
 
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/736x/16/d7/74/16d774f401e0aa9d589831764b3be204.jpg" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Severidad (S)
     </p>
 
-  <div class="text-2">
+   <div class="text-2">
 
   <span> Evalúa qué tan grave sería el efecto de la falla en caso de que ocurra. Se usa una escala, generalmente de 1 (efecto menor) a 10 (efecto crítico).
 
-
 </span>
-    </div>
-    
-   <p class="sin">
+    </div> 
+    <p class="sin">
       Offer valid until 29th April, 2023 *
     </p>
   </div>
 </div>
     </div>
-</div>
-</div>
 
 
 
 
 
 
-<div class="container mt-5">
-  <div class="row">
+
+
  <div class="col-sm-4">
 
 <div class="Analisis">
-  <div class="imagene"></div>
+  <div class="imagene"><img src="https://i.pinimg.com/736x/ab/e1/f3/abe1f3b238cb9f68017105f2b4a50bba.jpg" alt="Gi" width="300" height="128"></div>
   <div class="info">
     <p class="text-1">
       Ocurrencia (O)
     </p>
 
-   <div class="text-2">
-   <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
+ <div class="text-2">
+
+  <span> Estima con qué frecuencia podría suceder la falla. También se utiliza una escala de 1 (muy improbable) a 10 (muy probable).
 
 
 
@@ -604,7 +595,7 @@ body, html {
     </div>
     
   <p class="sin">
-    Offer valid until 29th April, 2023 *
+      Offer valid until 29th April, 2023 *
     </p>
   </div>
 </div>
@@ -630,7 +621,7 @@ body, html {
     <div class="button-bottom"></div>
     <div class="button-base"></div>
   </button>
-  <button class="button-3d" onclick="openPage('Contact', this,)">
+  <button class="button-3d" onclick="openPage('otro', this,)">
     <div class="button-top">
       <span class="material-icons">❯</span>
     </div>
@@ -642,6 +633,8 @@ body, html {
 
 
 
+</div>
+</div>
 
 
 
@@ -652,15 +645,110 @@ body, html {
 
 
 
-<div id="Contact" class="contenido">
-<h1>Titulo</h1>
+<div id="otro" class="contenido">
+
+
+
+
+
+
+
+<div class="container-fluid p-5 bg-danger text-white text-center">
+  <h1>Elementos del PFEMDA</h1>
+   
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Proceso</h3>
+      <p>Se examina el sistema o proceso completo, identificando las partes críticas y cómo estas interactúan entre sí. El objetivo es entender dónde podrían surgir problemas.
+</p>
+
+    
+  </div>
+    <div class="col-sm-4">
+      <h3>Fallas</h3>
+      <p>Se identifican los errores o problemas potenciales que podrían aparecer en el sistema o proceso. Esto incluye cualquier punto débil que podría generar un fallo.
+</p>
+      
+  </div>
+    <div class="col-sm-4">
+      <h3>Efectos</h3>        
+   <p>Se analizan las consecuencias de las fallas, tanto en el sistema como en los usuarios, clientes o procesos relacionados. ¿Qué impacto tendría la falla si ocurre?</p>
+    </div>
+<div class="col-sm-4">
+      <h3>Modo</h3>
+      <p>Se describen las maneras específicas en que las fallas podrían manifestarse. Esto responde a la pregunta: ¿cómo podría fallar?
+</p>   
+    </div>
+<div class="col-sm-4">
+      <h3>Diagnostico</h3>
+      <p>A diferencia del AMEF, el PFEMDA pone énfasis en las estrategias para detectar y diagnosticar fallas rápidamente. Esto incluye herramientas, métodos y procedimientos para minimizar el impacto de los problemas.
+
+</p>
+      
+   </div>
+    <div class="col-sm-4">
+    <h3>Analisis</h3>
+      <p>Al igual que en el AMEF, las fallas se priorizan con base en su gravedad, frecuencia y facilidad de detección. Esto permite decidir qué problemas deben abordarse primero, ya sea mediante medidas preventivas o correctivas.
+El PFEMDA combina la prevención de fallas con un enfoque práctico en el diagnóstico y resolución. Esto mejora no solo la confiabilidad de los sistemas, sino también la capacidad de respuesta ante problemas cuando ocurren, reduciendo así el impacto en los procesos y usuarios.
+
+</p>
+      
+   </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
 
 
 <div id="About" class="contenido">
-<h1>Titulo</h1>  
+
+<div class="container-fluid p-5 bg-info text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+
+
 </div>
 
 
